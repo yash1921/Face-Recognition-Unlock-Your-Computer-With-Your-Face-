@@ -157,9 +157,6 @@ print("Model trained sucessefully")
 # In[ ]:
 
 
-
-
-
 # In[ ]:
 
 
@@ -167,9 +164,6 @@ os.environ["SenderMail"] = "ryash1921@gmail.com"
 
 
 # In[ ]:
-
-
-
 
 
 # # Send Mail
@@ -201,8 +195,7 @@ def send_email():
     SenderPass = str(getpass.getpass("Enter sender pass:"))
     #RecvMail = str(input("Enter receiver mail"))
     Recvmail = os.environ.get("SenderMail")
-    
-    
+       
     
     print("Sending mail....")
     
@@ -245,23 +238,15 @@ from email.message import EmailMessage
 
 
 
+# In[ ]:
+
 
 
 # In[ ]:
 
 
 
-
-
 # In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 
 
 
@@ -272,8 +257,6 @@ cap.release()
 
 
 # In[ ]:
-
-
 
 
 
@@ -294,9 +277,6 @@ def wpmsg():
 
 
 # In[ ]:
-
-
-
 
 
 # # Access
@@ -326,12 +306,9 @@ def access():
         output = stream.readlines()
         #output
         for line in output:
-            print(line.strip())
-        
+            print(line.strip())            
             
-            
-        print("Infra deployed")
-        
+        print("Infra deployed")        
         
     elif Anon == 120:
         lock = cv2.imread("lock.jpg")
@@ -351,133 +328,5 @@ def access():
 
 
 # In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 
 
